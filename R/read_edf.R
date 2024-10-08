@@ -9,9 +9,9 @@
 #' and end events, etc. Could be \code{'no consistency check'},
 #' \code{'check consistency and report'} (default), \code{'check consistency and fix'}.
 #' @param import_events logical, whether to import events, defaults to
-#' code{TRUE}
+#' \code{TRUE}
 #' @param import_recordings logical, whether to import information about start/end of the recording, defaults to
-#' code{TRUE}
+#' \code{TRUE}
 #' @param import_samples logical, whether to import samples, defaults to \code{FALSE}.
 #' Please note that specifying\code{sample_attributes} automatically sets it to \code{TRUE}.
 #' @param sample_attributes a character vector that lists sample attributes to be imported.
@@ -112,6 +112,7 @@ read_edf <- function(file,
   }
   if (import_events){
     edf_recording$events <- data.frame(edf_recording$events)
+    edf_recording$events$message <- iconv(edf_recording$events$message, from = "ISO-8859-1", to = "UTF-8")
 
   }
   if (import_recordings){

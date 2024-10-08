@@ -1,7 +1,7 @@
 Package: eyelinkReader
 Title: Import Gaze Data for EyeLink Eye Tracker
-Version: 1.0.1
-Date: 2023-09-06
+Version: 1.0.2
+Date: 2024-10-08
 Authors@R: 
   person(given = "Alexander",
          family = "Pastukhov",
@@ -24,14 +24,14 @@ NeedsCompilation: yes
 VignetteBuilder: knitr
 LazyData: true
 LinkingTo: Rcpp, RcppProgress
-Imports: dplyr, fs, Rcpp, stringr, tidyr, methods, ggplot2
-RoxygenNote: 7.2.3
+Imports: dplyr, fs, purrr, Rcpp, stringr, tidyr, methods, ggplot2
+RoxygenNote: 7.3.2
 SystemRequirements: GNU make
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Packaged: 2023-09-06 17:23:47 UTC; ba7dr4
+Packaged: 2024-10-08 09:39:36 UTC; ba7dr4
 Author: Alexander Pastukhov [aut, cre]
     (<https://orcid.org/0000-0002-8738-8591>)
 Maintainer: Alexander Pastukhov <pastukhov.alexander@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-09-06 21:02:31 UTC
+Date/Publication: 2024-10-08 09:50:07 UTC
