@@ -1,7 +1,7 @@
 Package: eyelinkReader
 Title: Import Gaze Data for EyeLink Eye Tracker
-Version: 1.0.2
-Date: 2024-10-08
+Version: 1.0.3
+Date: 2025-01-09
 Authors@R: 
   person(given = "Alexander",
          family = "Pastukhov",
@@ -29,9 +29,9 @@ RoxygenNote: 7.3.2
 SystemRequirements: GNU make
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Packaged: 2024-10-08 09:39:36 UTC; ba7dr4
+Packaged: 2025-01-09 15:43:39 UTC; ba7dr4
 Author: Alexander Pastukhov [aut, cre]
     (<https://orcid.org/0000-0002-8738-8591>)
 Maintainer: Alexander Pastukhov <pastukhov.alexander@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-10-08 09:50:07 UTC
+Date/Publication: 2025-01-09 16:00:01 UTC

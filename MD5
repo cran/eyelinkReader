@@ -1,6 +1,6 @@
-37652cb71ab1fed8ea26b742d71cc3e3 *DESCRIPTION
+bc989d2d3062f5f2dcf55be29fb98681 *DESCRIPTION
 cd8ca7c610b7bb4a8f00253a140bae90 *NAMESPACE
-2b99af6a89c9738c1781839615cbe480 *NEWS.md
+a809c5ba581d2049b0335915698fb840 *NEWS.md
 9a029879c78ccf4d5488b00c80f2a473 *R/RcppExports.R
 a3371e6c5eeb2bc6eedef799074e1c2b *R/adjust_message_time.R
 a24d91eed8416a52103d775398393efc *R/check_consistency_flag.R
@@ -25,11 +25,11 @@ ccd73c6399b4006e7186506922f9aaba *R/print.R
 9a4c601495376b71ce21414d38fd6b4d *R/read_edf.R
 21796529f1a77b11c1ded7c672b67a21 *R/read_preamble.R
 b517bcee70feb6a06a03021b67e8a9b3 *R/zzz.R
-1ba286182580e089241af4530515cb66 *README.md
-bb938eae3ad0aeb75c30edf49b186466 *build/vignette.rds
+1e5277cb980145409dee4a3cb395665b *README.md
+542ea57b76cd1b8347cd9bc36565234d *build/vignette.rds
 8dfbd333292a1b3188c1dd930f5ae0e5 *data/gaze.rda
 ef57190473075360ea42e4974dbfb372 *inst/WORDLIST
-58d502d01d3cec468b0b3ac4164d396a *inst/cpp/edf_interface.cpp
+b7f7e62b5abafd0052114ab95ebfcb7e *inst/cpp/edf_interface.cpp
 4f8bd692bd5c348aa2512639e959b362 *inst/doc/installation.R
 ea4546a0ed7776e3dd5039552b4dec53 *inst/doc/installation.Rmd
 d66edb310682fe22f6bb1d1ee3bc8080 *inst/doc/installation.html
@@ -61,6 +61,7 @@ c0d83ea68ba02b6b56b898cb9075232c *man/extract_fixations.Rd
 66f151a8fea16fabe2b7f256b701df1a *man/extract_variables.Rd
 89a9671ec1c6b58625889f97d3ae1812 *man/eyelinkReader.Rd
 0811edd8213f9c17f792abd018dd0dcd *man/eyelinkRecording-class.Rd
+52abf651959584907b5608641da913b2 *man/figures/logo.svg
 c6c2a1b2783f13c2ffb02821de24922c *man/gaze.Rd
 038d45b325f4ac78655310dafe79153c *man/logical_index_for_sample_attributes.Rd
 4549ecdf7a9dca9d004144e01fdc4921 *man/plot.eyelinkRecording.Rd
